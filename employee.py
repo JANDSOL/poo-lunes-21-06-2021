@@ -13,3 +13,8 @@ class Employee:
     def generate_code(self):
         Employee.sequence += 1
         return Employee.sequence
+
+    def show(self):
+        print('código:{}, nombre:{}, cargo:{}-{}'.format(self.id, self.name,\
+                                                         self.position.code,\
+                                                     self.position.description))
