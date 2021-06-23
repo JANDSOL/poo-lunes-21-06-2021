@@ -3,3 +3,6 @@ images/
 
 # Visual Studio
 .vscode/
+
+# Python cache
+__pycache__
