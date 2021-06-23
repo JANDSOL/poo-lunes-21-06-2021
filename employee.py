@@ -18,3 +18,14 @@ class Employee:
         print('código:{}, nombre:{}, cargo:{}-{}'.format(self.id, self.name,\
                                                          self.position.code,\
                                                      self.position.description))
+
+
+if __name__ == '__main__':
+    position1 = Position('Docente')
+    employee1 = Employee('Daniel', '0914', 500, position1)
+    employee1.show()
+
+    position2 = Position('Analista')
+    employee2 = Employee('Ana', '0914', 500, position2)
+    employee2.show()
+    
